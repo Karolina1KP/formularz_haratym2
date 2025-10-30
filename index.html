@@ -5,9 +5,130 @@
              <meta charset="utf-8"> 
              <title> Haratym formularz </title> 
        </head> 
-     <body> 
- Tutaj będzie formularz
-<A HREF="https://karolina1kp.github.io/zadanie_haratym2/"> Wróć </A>
-    </body> 
+     <body bgcolor="#39BAB5"> 
+<center><h1> Formularz zdrowego nastolatka</h1></center> 
+<form enctype="text/plain" action="mailto:mkryniew@wp.pl" subject="formularz_dane" method="Post"> 
+  <TABLE> 
+ <TR height="100"> 
+                          <TD width="500">  
+                               <b>Imię</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp  
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="imie" size="22"  maxlength="50">  
+                               <br><br> 
+                               <b>Nazwiko</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="nazwisko" size="22"  maxlength="50">  
+                               <br><br> 
+                             <b>Adres email </b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp<input name="mail" size="22" value="@">  
+                               <br><br>
+                             <b>Hasło</b> &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+&nbsp  
+&nbsp &nbsp &nbsp &nbsp<input name="haslo" size="22">  
+                               <br><br> 
+                             <b>Wiek</b>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp<input name="wiek" size="22" maxlength="2"><nobr> 
+<br>  
+                           </TD> 
 
+        <TD width="260"> 4. Jakie zdrowe produkty jesz?
+ <br><br> 
+ <input type="checkbox" name="pyt4" value="owoce"> Owoce
+ <br><br> 
+ <input type="checkbox" name="pyt4" value="warzywa"> Warzywa
+<br><br>
+<input type="checkbox" name="pyt4" value="orzechy"> Orzechy 
+ <br><br> 
+ <input type="checkbox" name="pyt4" value="ziarniste"> Produkty pełnoziarniste 
+ <br><br><br> </TD> 
+
+<TD>8. Ile szklanek wody pijesz codziennie?
+  <select>
+<option value="zero_lub_jedna" checked>0-1</option> 
+<option value="dwie_lub_cztery">2-4</option> 
+<option value="piec_lub_siedem">5-7</option> 
+</select>                  
+        
+ <TR height="150"> 
+                          <TD> <nobr>1. Jak oceniasz swoją dietę?</nobr>
+<br><br> 
+<input type="radio" name="pyt1" value="bardzo_dobra"> Bardzo zdrowa
+<input type="radio" name="pyt1" value="w_porzadku" checked> Raczej zdrowa 
+<input type="radio" name="pyt1" value="srednia"> Średnia
+<input type="radio" name="pyt1" value="niedobra"> Niezdrowa     </TD>
+ 
+<TD width="300"> <nobr>5. Jakie aktywności fizyczne wykonujesz? </nobr>
+ <br><br>
+<input type="checkbox" name="pyt5" value="rower" checked> Jazda na rowerze
+<input type="checkbox" name="pyt5" value="bieganie"> Bieganie
+<input type="checkbox" name="pyt5" value="silownia"> Siłownia
+<input type="checkbox" name="pyt5" value="plywanie"> Pływanie
+<input type="checkbox" name="pyt5" value="zadne"> Żadne z wymienionych </TD>
+
+                   <TD> 9. Jak spędzasz czas wolny?
+<select>
+<option value="cwiczenie">uprawiam sport</option> 
+<option value="gry_video">gram na telefonie</option> 
+<option value="hobby">rozwijam pasje</option> 
+<option value="sprzatanie">sprzątam pokój</option> 
+</select> 
+</TD>  
+                     
+        </TR> 
+  <TR height="120"> 
+                          <TD> <nobr>2. Jak często uprawiasz sport?</nobr>
+<br><br>
+<input type="radio" name="pyt2" value="codziennie"> Codziennie
+<br><br>
+<input type="radio" name="pyt2" value="czasami"> Kilka razy w tygodniu
+<br><br>
+<input type="radio" name="pyt2" value="rzadziej"> Rzadziej    </TD>
+
+                         <TD> <nobr>6. Jakie nawyki zdrowotne stosujesz?</nobr>
+<br><br> 
+ <input type="checkbox" name="pyt6" value="nawadnianie"> Picie dużej ilości wody
+ <br><br> 
+ <input type="checkbox" name="pyt6" value="odstawienie_slodyczy"> Ograniczenie słodyczy
+<br><br>
+<input type="checkbox" name="pyt6" value="zeby"> Mycie zębów po każdym posiłku
+ <br><br><br>
+     </TR>
+  <TR height="120">  
+                          <TD> <nobr>3. Ile godzin śpisz? </nobr>    
+<br><br>
+<input type="radio" name="pyt3" value="ledwo"> mniej niż 3 
+<input type="radio" name="pyt3" value="troche"> 3-4
+<input type="radio" name="pyt3" value="okej" checked> 5-6
+<input type="radio" name="pyt3" value="dobrze"> 7-8
+<input type="radio" name="pyt3" value="super"> więcej niż 8  </TD>
+
+                         <TD> 7. Twój ulubiony owoc - 
+<select>
+<option value="jablko" checked>Jabłko</option> 
+<option value="banan">Banan</option> 
+<option value="brzoskwinia">Brzoskwinia</option> 
+<option value="sliwka">Śliwka</option> 
+<option value="truskawka">Truskawka</option>
+</select> 
+</TD>
+
+   <TD> 10. Opisz jak spędziłeś/aś ostatni weekend <br>  
+   <textarea cols="30" rows="10"></textarea> </TD>  
+</TR>
+ <TD>
+<TR height="200">
+<TD><button onclick="alert('wow kliknąłeś mnie!')" style="height:80px;width:120px">kliknij mnie</button></TD>
+ <TD><nobr><input type="reset" value="Reset" style="height:80px; width:150px">                    
+</TD>                      
+ <TD> <input type="submit" value="Wyślij" style="height:80px; width:150px"> 
+</TD>\
+<TR>
+<TD>
+<A HREF="https://www.zdrowy-styl-zycia.pl/12-zasad-jak-prowadzic-zdrowy-styl-zycia/">   
+<button style="height:80px;width:400px">Podstawy zdrowego stylu życia</button>
+</A>
+</TD>
+</TR>     
+  </TABLE> 
+</form>
+<A HREF="zadanie_haratym.html"> Wróć </A>
+    </body> 
   </html>
